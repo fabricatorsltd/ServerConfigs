@@ -6,6 +6,7 @@ Zsh shell with Starship
 ```bash
 dnf install git zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl -fsSL https://starship.rs/install.sh | bash
 ```
 
 ## `.zshrc`
@@ -14,7 +15,6 @@ export ZSH="/home/admin/.oh-my-zsh"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
-curl -fsSL https://starship.rs/install.sh | bash
 ```
 
 ## Change shell
